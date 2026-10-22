@@ -86,8 +86,9 @@ def save_thumbnails(query, categories = [None]):
 
 
     
-median_price = estimate_price("gamecube", categories= ["consolesGames"])
-
-#save_thumbnails("gamecube", categories= ["consolesGames"])
-
+median_price = estimate_price("chaise", categories= [None])
 print(f"dumb estimated price : {median_price}")
+
+
+save_thumbnails("chaise", categories= [None])
+

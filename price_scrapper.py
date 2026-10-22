@@ -20,35 +20,38 @@ ALL_CATEGORIES = {
 "phonesNavigation" : ["landlinePhones", "cellPhones", "navigationSystems", "phoneNavigationAccessories",]
 }
 
-
-#-------------
-query = "aosidhowefawefr"
-#category = "cellPhones"
-category = None
-
 #----------------------------
+def estimate_price(query, categories = [None]):
+    all_rows = []
+    for category in categories:
+        try:
+            result = scrape(query = query, detail = False, sort = "relevance",  max_results=None, delay = 0.1,  category = category)
 
-result = scrape(query = query, detail = False, sort = "relevance",  max_results=None, delay = 0.1,  category = category)
-#result.to_csv("out/" + query + str(category) + ".csv")
+            if result.rows:
+                all_rows.extend(result.rows)
+        except Exception as e:
+            print(f"Skipping {category}: {e}")
+    #result.to_csv("out/" + query + str(category) + ".csv")
 
-#-----------------
-if result.rows: 
-    df = pd.DataFrame(result.rows)
-
+    #-----------------
+    df = pd.DataFrame(all_rows)
     print(df.shape)
-    #print(df.columns)
 
-    df["price"] = pd.to_numeric(
-        df["formattedPrice"]
-        .str.strip()
-        .str.replace("Gratis", "0", case=False, regex=False)
-        .str.replace("-", "0", regex=False)
-        .str.replace("'", "", regex=False),
-        errors = "coerce"
-    )
+    if not df.empty:
 
-    median_price = df["price"].median()
-else:
-    median_price = None
+        df["price"] = pd.to_numeric(
+            df["formattedPrice"]
+            .str.strip()
+            .str.replace("Gratis", "0", case=False, regex=False)
+            .str.replace("-", "0", regex=False)
+            .str.replace("'", "", regex=False),
+            errors = "coerce"
+        )
 
+        return df["price"].median()
+    else:
+        return None
+
+    
+median_price = estimate_price("gamecube", categories= ["consolesGames"])
 print(f"dumb estimated price : {median_price}")

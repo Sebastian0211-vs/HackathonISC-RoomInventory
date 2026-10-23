@@ -48,6 +48,8 @@ import requests
 import torch
 from tutti_scraper import CATEGORY_GROUPS, Scraper, TuttiClient, flatten_listing, listing_url
 
+import time
+
 from dino_compare import (
     IMAGE_EXTS,
     MODELS,
@@ -125,13 +127,14 @@ def parse_args():
     ap.add_argument("--csv", help="where to write every score (default: <out>/matches.csv)")
     ap.add_argument("--top", type=int, default=10, help="results to show at the end (default: 10)")
     ap.add_argument("--workers", type=int, default=8, help="parallel thumbnail downloads (default: 8)")
-    ap.add_argument("--delay", type=float, default=0.25, help="seconds between tutti.ch API calls (default: 0.25)")
+    ap.add_argument("--delay", type=float, default=1, help="seconds between tutti.ch API calls (default: 0.25)")
     ap.add_argument("--timeout", type=float, default=10.0, help="thumbnail download timeout in s (default: 10)")
     ap.add_argument("--model", default="vits14", choices=MODELS, help="DINOv2 backbone (default: vits14)")
     ap.add_argument("--size", type=int, default=224, help="input size in px, multiple of 14 (default: 224)")
     ap.add_argument("--no-crop", action="store_true", help="squash images to a square instead of center crop")
     ap.add_argument("--batch-size", type=int, default=32, help="max images per forward pass (default: 32)")
     ap.add_argument("--device", default="auto", help="auto, cpu, cuda, mps (default: auto)")
+    ap.add_argument("--headstart", type=int, default=300, help="max listings the scraper may be ahead of the comparison (default: 300)")
     return ap.parse_args()
 
 
@@ -173,6 +176,19 @@ def short(text, n):
     return text if len(text) <= n else text[: n - 1] + "…"
 
 
+#overwriting scraper to not do the ascending sweep 
+class NoSweepScraper(Scraper):
+    """Scraper without the final ascending sweep."""
+
+    def run(self):
+        allow_split = self.seed_category is None
+        yield from self._scrape(
+            category=self.seed_category,
+            constraints=self.seed_constraints,
+            allow_category_split=allow_split,
+        )
+
+
 # ------------------------------------------------------------------ pipeline
 
 class Pipeline:
@@ -193,6 +209,7 @@ class Pipeline:
         self.failed = 0
         self._count_lock = threading.Lock()
         self._local = threading.local()
+        self.processed = 0
 
     def _count(self, name):
         with self._count_lock:
@@ -214,6 +231,14 @@ class Pipeline:
 
     def _limit_reached(self):
         return self.args.max_results is not None and self.found >= self.args.max_results
+
+    def _wait_for_room(self):
+        """Block the scraper while it is more than --headstart listings ahead."""
+        while not self.stop.is_set():
+            backlog = self.found - self.failed - self.processed
+            if backlog < self.args.headstart:
+                return
+            time.sleep(0.1)
 
     def fetch(self, row):
         """Download one thumbnail (unless already on disk) and preprocess it."""
@@ -253,7 +278,7 @@ class Pipeline:
                 if self.stop.is_set() or self._limit_reached():
                     break
                 try:
-                    scraper = Scraper(client, self.args.search, sort="RELEVANCE", seed_category=category)
+                    scraper = NoSweepScraper(client, self.args.search, sort="RELEVANCE", seed_category=category)
                     for node in scraper.run():
                         if self.stop.is_set() or self._limit_reached():
                             break
@@ -266,6 +291,7 @@ class Pipeline:
                         if not row.get("thumbnailURL"):
                             continue
                         self._count("found")
+                        self._wait_for_room()
                         pool.submit(self.fetch, row)
                 except Exception as exc:
                     log(f"Scraping failed for category {category or 'all'}: {exc}")
@@ -326,7 +352,7 @@ def main():
     device = pick_device(args.device)
     log(f'Searching tutti.ch for "{args.search}" into {out_dir}')
     log(f"Loading dinov2_{args.model} on {device}...")
-    model = torch.hub.load("facebookresearch/dinov2", f"dinov2_{args.model}", trust_repo=True)
+    model = torch.hub.load("facebookresearch/dinov2", f"dinov2_{args.model}",trust_repo=True, skip_validation=True)
     model = model.to(device).eval()
     q = embed(model, [transform(load_image(query_path))], device)[0]
     log("Model ready, matching as thumbnails arrive. Ctrl+C stops and shows the results so far.\n")
@@ -397,6 +423,8 @@ def main():
     print(f"All {len(results)} scores saved to {csv_path}")
     if pipe.failed:
         print(f"{pipe.failed} thumbnail(s) could not be downloaded or read.")
+
+    pipe.processed = len(results)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,2626 @@
+[
+  {
+    "product": "video game console",
+    "category": "toysHandicrafts",
+    "subcategory": "consolesGames",
+    "p_category": 1.0,
+    "p_subcategory": 0.947,
+    "needs_fallback": false
+  },
+  {
+    "product": "handheld game console",
+    "category": "toysHandicrafts",
+    "subcategory": "consolesGames",
+    "p_category": 1.0,
+    "p_subcategory": 0.881,
+    "needs_fallback": false
+  },
+  {
+    "product": "retro game console",
+    "category": "toysHandicrafts",
+    "subcategory": "consolesGames",
+    "p_category": 1.0,
+    "p_subcategory": 0.876,
+    "needs_fallback": false
+  },
+  {
+    "product": "game controller",
+    "category": "toysHandicrafts",
+    "subcategory": "toys",
+    "p_category": 0.808,
+    "p_subcategory": 0.478,
+    "needs_fallback": false
+  },
+  {
+    "product": "gamepad",
+    "category": "computersAccessories",
+    "subcategory": "computerComponentsAccessories",
+    "p_category": 0.741,
+    "p_subcategory": 0.978,
+    "needs_fallback": false
+  },
+  {
+    "product": "joystick",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.433,
+    "p_subcategory": 0.845,
+    "needs_fallback": false
+  },
+  {
+    "product": "video game",
+    "category": "toysHandicrafts",
+    "subcategory": "consolesGames",
+    "p_category": 1.0,
+    "p_subcategory": 0.956,
+    "needs_fallback": false
+  },
+  {
+    "product": "video game cartridge",
+    "category": "toysHandicrafts",
+    "subcategory": "consolesGames",
+    "p_category": 0.829,
+    "p_subcategory": 0.82,
+    "needs_fallback": false
+  },
+  {
+    "product": "virtual reality headset",
+    "category": "computersAccessories",
+    "subcategory": "computerComponentsAccessories",
+    "p_category": 0.935,
+    "p_subcategory": 0.878,
+    "needs_fallback": false
+  },
+  {
+    "product": "arcade machine",
+    "category": "toysHandicrafts",
+    "subcategory": "toys",
+    "p_category": 0.825,
+    "p_subcategory": 0.67,
+    "needs_fallback": false
+  },
+  {
+    "product": "laptop",
+    "category": "computersAccessories",
+    "subcategory": "computers",
+    "p_category": 0.94,
+    "p_subcategory": 0.94,
+    "needs_fallback": false
+  },
+  {
+    "product": "desktop computer",
+    "category": "computersAccessories",
+    "subcategory": "computers",
+    "p_category": 0.912,
+    "p_subcategory": 0.962,
+    "needs_fallback": false
+  },
+  {
+    "product": "computer monitor",
+    "category": "computersAccessories",
+    "subcategory": "computerComponentsAccessories",
+    "p_category": 0.874,
+    "p_subcategory": 0.973,
+    "needs_fallback": false
+  },
+  {
+    "product": "computer keyboard",
+    "category": "computersAccessories",
+    "subcategory": "computerComponentsAccessories",
+    "p_category": 0.993,
+    "p_subcategory": 0.998,
+    "needs_fallback": false
+  },
+  {
+    "product": "computer mouse",
+    "category": "computersAccessories",
+    "subcategory": "computerComponentsAccessories",
+    "p_category": 0.993,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "printer",
+    "category": "officeBusiness",
+    "subcategory": "officeMaterialFurniture",
+    "p_category": 0.525,
+    "p_subcategory": 0.8,
+    "needs_fallback": false
+  },
+  {
+    "product": "scanner",
+    "category": "computersAccessories",
+    "subcategory": "computers",
+    "p_category": 0.653,
+    "p_subcategory": 0.591,
+    "needs_fallback": false
+  },
+  {
+    "product": "external hard drive",
+    "category": "computersAccessories",
+    "subcategory": "computerComponentsAccessories",
+    "p_category": 0.939,
+    "p_subcategory": 0.965,
+    "needs_fallback": false
+  },
+  {
+    "product": "usb flash drive",
+    "category": "computersAccessories",
+    "subcategory": "computerComponentsAccessories",
+    "p_category": 0.975,
+    "p_subcategory": 0.996,
+    "needs_fallback": false
+  },
+  {
+    "product": "router",
+    "category": "computersAccessories",
+    "subcategory": "computers",
+    "p_category": 0.692,
+    "p_subcategory": 0.55,
+    "needs_fallback": false
+  },
+  {
+    "product": "graphics card",
+    "category": "computersAccessories",
+    "subcategory": "computerComponentsAccessories",
+    "p_category": 0.999,
+    "p_subcategory": 0.798,
+    "needs_fallback": false
+  },
+  {
+    "product": "tablet computer",
+    "category": "computersAccessories",
+    "subcategory": "tablets",
+    "p_category": 1.0,
+    "p_subcategory": 0.501,
+    "needs_fallback": false
+  },
+  {
+    "product": "e-book reader",
+    "category": "computersAccessories",
+    "subcategory": "computerComponentsAccessories",
+    "p_category": 0.96,
+    "p_subcategory": 0.504,
+    "needs_fallback": false
+  },
+  {
+    "product": "webcam",
+    "category": "photoVideo",
+    "subcategory": "photoCameras",
+    "p_category": 0.881,
+    "p_subcategory": 0.538,
+    "needs_fallback": false
+  },
+  {
+    "product": "docking station",
+    "category": "computersAccessories",
+    "subcategory": "computerComponentsAccessories",
+    "p_category": 0.81,
+    "p_subcategory": 0.931,
+    "needs_fallback": false
+  },
+  {
+    "product": "smartphone",
+    "category": "phonesNavigation",
+    "subcategory": "cellPhones",
+    "p_category": 0.907,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "mobile phone",
+    "category": "phonesNavigation",
+    "subcategory": "cellPhones",
+    "p_category": 0.983,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "landline phone",
+    "category": "phonesNavigation",
+    "subcategory": "landlinePhones",
+    "p_category": 0.965,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "phone case",
+    "category": "phonesNavigation",
+    "subcategory": "phoneNavigationAccessories",
+    "p_category": 0.926,
+    "p_subcategory": 0.792,
+    "needs_fallback": false
+  },
+  {
+    "product": "phone charger",
+    "category": "phonesNavigation",
+    "subcategory": "phoneNavigationAccessories",
+    "p_category": 0.637,
+    "p_subcategory": 0.943,
+    "needs_fallback": false
+  },
+  {
+    "product": "power bank",
+    "category": "computersAccessories",
+    "subcategory": "computerComponentsAccessories",
+    "p_category": 0.927,
+    "p_subcategory": 0.965,
+    "needs_fallback": false
+  },
+  {
+    "product": "smartwatch",
+    "category": "clothesAccessories",
+    "subcategory": "watchesJewelry",
+    "p_category": 0.982,
+    "p_subcategory": 0.649,
+    "needs_fallback": false
+  },
+  {
+    "product": "gps navigation device",
+    "category": "phonesNavigation",
+    "subcategory": "cellPhones",
+    "p_category": 1.0,
+    "p_subcategory": 0.602,
+    "needs_fallback": false
+  },
+  {
+    "product": "television",
+    "category": "tvAudio",
+    "subcategory": "tv",
+    "p_category": 0.994,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "headphones",
+    "category": "tvAudio",
+    "subcategory": "audioHifi",
+    "p_category": 1.0,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "earbuds",
+    "category": "tvAudio",
+    "subcategory": "audioHifi",
+    "p_category": 0.991,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "bluetooth speaker",
+    "category": "tvAudio",
+    "subcategory": "audioHifi",
+    "p_category": 1.0,
+    "p_subcategory": 0.998,
+    "needs_fallback": false
+  },
+  {
+    "product": "loudspeaker",
+    "category": "tvAudio",
+    "subcategory": "audioHifi",
+    "p_category": 1.0,
+    "p_subcategory": 0.996,
+    "needs_fallback": false
+  },
+  {
+    "product": "soundbar",
+    "category": "tvAudio",
+    "subcategory": "audioHifi",
+    "p_category": 0.991,
+    "p_subcategory": 0.997,
+    "needs_fallback": false
+  },
+  {
+    "product": "stereo amplifier",
+    "category": "tvAudio",
+    "subcategory": "audioHifi",
+    "p_category": 1.0,
+    "p_subcategory": 0.973,
+    "needs_fallback": false
+  },
+  {
+    "product": "turntable",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.866,
+    "p_subcategory": 0.925,
+    "needs_fallback": false
+  },
+  {
+    "product": "record player",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.852,
+    "p_subcategory": 0.948,
+    "needs_fallback": false
+  },
+  {
+    "product": "radio",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.761,
+    "p_subcategory": 0.558,
+    "needs_fallback": false
+  },
+  {
+    "product": "cd player",
+    "category": "music",
+    "subcategory": "cds",
+    "p_category": 0.66,
+    "p_subcategory": 0.864,
+    "needs_fallback": false
+  },
+  {
+    "product": "dvd player",
+    "category": "photoVideo",
+    "subcategory": "videoCameras",
+    "p_category": 0.879,
+    "p_subcategory": 0.978,
+    "needs_fallback": false
+  },
+  {
+    "product": "blu-ray player",
+    "category": "photoVideo",
+    "subcategory": "videoCameras",
+    "p_category": 0.511,
+    "p_subcategory": 0.971,
+    "needs_fallback": false
+  },
+  {
+    "product": "projector",
+    "category": "photoVideo",
+    "subcategory": "photoCameras",
+    "p_category": 0.823,
+    "p_subcategory": 0.586,
+    "needs_fallback": false
+  },
+  {
+    "product": "remote control",
+    "category": "computersAccessories",
+    "subcategory": "computerComponentsAccessories",
+    "p_category": 0.766,
+    "p_subcategory": 0.677,
+    "needs_fallback": false
+  },
+  {
+    "product": "microphone",
+    "category": "tvAudio",
+    "subcategory": "audioHifi",
+    "p_category": 0.705,
+    "p_subcategory": 0.902,
+    "needs_fallback": false
+  },
+  {
+    "product": "camera",
+    "category": "photoVideo",
+    "subcategory": "photoCameras",
+    "p_category": 1.0,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "digital camera",
+    "category": "photoVideo",
+    "subcategory": "photoCameras",
+    "p_category": 1.0,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "film camera",
+    "category": "photoVideo",
+    "subcategory": "photoCameras",
+    "p_category": 1.0,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "instant camera",
+    "category": "photoVideo",
+    "subcategory": "photoCameras",
+    "p_category": 1.0,
+    "p_subcategory": 0.997,
+    "needs_fallback": false
+  },
+  {
+    "product": "camera lens",
+    "category": "photoVideo",
+    "subcategory": "photoVideoAccessories",
+    "p_category": 0.966,
+    "p_subcategory": 0.984,
+    "needs_fallback": false
+  },
+  {
+    "product": "video camera",
+    "category": "photoVideo",
+    "subcategory": "videoCameras",
+    "p_category": 1.0,
+    "p_subcategory": 0.741,
+    "needs_fallback": false
+  },
+  {
+    "product": "action camera",
+    "category": "photoVideo",
+    "subcategory": "photoCameras",
+    "p_category": 0.998,
+    "p_subcategory": 0.981,
+    "needs_fallback": false
+  },
+  {
+    "product": "drone",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.608,
+    "p_subcategory": 0.847,
+    "needs_fallback": false
+  },
+  {
+    "product": "tripod",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.78,
+    "p_subcategory": 0.477,
+    "needs_fallback": false
+  },
+  {
+    "product": "camera bag",
+    "category": "clothesAccessories",
+    "subcategory": "accessories",
+    "p_category": 0.859,
+    "p_subcategory": 0.701,
+    "needs_fallback": false
+  },
+  {
+    "product": "flash",
+    "category": "photoVideo",
+    "subcategory": "photoCameras",
+    "p_category": 0.775,
+    "p_subcategory": 0.751,
+    "needs_fallback": false
+  },
+  {
+    "product": "guitar",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.993,
+    "p_subcategory": 0.998,
+    "needs_fallback": false
+  },
+  {
+    "product": "electric guitar",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.993,
+    "p_subcategory": 0.996,
+    "needs_fallback": false
+  },
+  {
+    "product": "acoustic guitar",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.994,
+    "p_subcategory": 0.991,
+    "needs_fallback": false
+  },
+  {
+    "product": "bass guitar",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.993,
+    "p_subcategory": 0.993,
+    "needs_fallback": false
+  },
+  {
+    "product": "violin",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.993,
+    "p_subcategory": 0.997,
+    "needs_fallback": false
+  },
+  {
+    "product": "cello",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.958,
+    "p_subcategory": 0.728,
+    "needs_fallback": false
+  },
+  {
+    "product": "piano",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.985,
+    "p_subcategory": 0.995,
+    "needs_fallback": false
+  },
+  {
+    "product": "digital piano",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.984,
+    "p_subcategory": 0.986,
+    "needs_fallback": false
+  },
+  {
+    "product": "electronic keyboard",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.913,
+    "p_subcategory": 0.989,
+    "needs_fallback": false
+  },
+  {
+    "product": "synthesizer",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.931,
+    "p_subcategory": 0.965,
+    "needs_fallback": false
+  },
+  {
+    "product": "drum kit",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.963,
+    "p_subcategory": 0.879,
+    "needs_fallback": false
+  },
+  {
+    "product": "drum",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.972,
+    "p_subcategory": 0.917,
+    "needs_fallback": false
+  },
+  {
+    "product": "trumpet",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.967,
+    "p_subcategory": 0.96,
+    "needs_fallback": false
+  },
+  {
+    "product": "saxophone",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.994,
+    "p_subcategory": 0.997,
+    "needs_fallback": false
+  },
+  {
+    "product": "flute",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.99,
+    "p_subcategory": 0.993,
+    "needs_fallback": false
+  },
+  {
+    "product": "clarinet",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.986,
+    "p_subcategory": 0.985,
+    "needs_fallback": false
+  },
+  {
+    "product": "harmonica",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.993,
+    "p_subcategory": 0.994,
+    "needs_fallback": false
+  },
+  {
+    "product": "accordion",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.581,
+    "p_subcategory": 0.88,
+    "needs_fallback": false
+  },
+  {
+    "product": "ukulele",
+    "category": "music",
+    "subcategory": "musicalInstruments",
+    "p_category": 0.996,
+    "p_subcategory": 0.997,
+    "needs_fallback": false
+  },
+  {
+    "product": "amplifier",
+    "category": "tvAudio",
+    "subcategory": "audioHifi",
+    "p_category": 0.998,
+    "p_subcategory": 0.911,
+    "needs_fallback": false
+  },
+  {
+    "product": "vinyl record",
+    "category": "music",
+    "subcategory": "cds",
+    "p_category": 0.834,
+    "p_subcategory": 0.794,
+    "needs_fallback": false
+  },
+  {
+    "product": "compact disc",
+    "category": "music",
+    "subcategory": "cds",
+    "p_category": 0.954,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "coffee machine",
+    "category": "officeBusiness",
+    "subcategory": "officeMaterialFurniture",
+    "p_category": 0.698,
+    "p_subcategory": 0.647,
+    "needs_fallback": false
+  },
+  {
+    "product": "espresso machine",
+    "category": "officeBusiness",
+    "subcategory": "commercialInstallationsFurniture",
+    "p_category": 0.878,
+    "p_subcategory": 0.505,
+    "needs_fallback": false
+  },
+  {
+    "product": "kettle",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.988,
+    "p_subcategory": 0.977,
+    "needs_fallback": false
+  },
+  {
+    "product": "toaster",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.995,
+    "p_subcategory": 0.872,
+    "needs_fallback": false
+  },
+  {
+    "product": "microwave oven",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.933,
+    "p_subcategory": 0.934,
+    "needs_fallback": false
+  },
+  {
+    "product": "blender",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.907,
+    "p_subcategory": 0.943,
+    "needs_fallback": false
+  },
+  {
+    "product": "food processor",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.998,
+    "p_subcategory": 0.977,
+    "needs_fallback": false
+  },
+  {
+    "product": "stand mixer",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.969,
+    "p_subcategory": 0.855,
+    "needs_fallback": false
+  },
+  {
+    "product": "vacuum cleaner",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.991,
+    "p_subcategory": 0.985,
+    "needs_fallback": false
+  },
+  {
+    "product": "robot vacuum",
+    "category": "vehicles",
+    "subcategory": "utilityVehicles",
+    "p_category": 0.988,
+    "p_subcategory": 0.657,
+    "needs_fallback": false
+  },
+  {
+    "product": "iron",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.833,
+    "p_subcategory": 0.712,
+    "needs_fallback": false
+  },
+  {
+    "product": "hair dryer",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.844,
+    "p_subcategory": 0.977,
+    "needs_fallback": false
+  },
+  {
+    "product": "sewing machine",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.853,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "fan",
+    "category": "photoVideo",
+    "subcategory": "videoCameras",
+    "p_category": 0.399,
+    "p_subcategory": 0.486,
+    "needs_fallback": true
+  },
+  {
+    "product": "heater",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.982,
+    "p_subcategory": 0.557,
+    "needs_fallback": false
+  },
+  {
+    "product": "air purifier",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.961,
+    "p_subcategory": 0.601,
+    "needs_fallback": false
+  },
+  {
+    "product": "humidifier",
+    "category": "household",
+    "subcategory": "decorationAccessories",
+    "p_category": 0.97,
+    "p_subcategory": 0.517,
+    "needs_fallback": false
+  },
+  {
+    "product": "refrigerator",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.992,
+    "p_subcategory": 0.998,
+    "needs_fallback": false
+  },
+  {
+    "product": "washing machine",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.975,
+    "p_subcategory": 0.829,
+    "needs_fallback": false
+  },
+  {
+    "product": "dishwasher",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.995,
+    "p_subcategory": 0.732,
+    "needs_fallback": false
+  },
+  {
+    "product": "oven",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.882,
+    "p_subcategory": 0.557,
+    "needs_fallback": false
+  },
+  {
+    "product": "cooking pot",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 1.0,
+    "p_subcategory": 0.711,
+    "needs_fallback": false
+  },
+  {
+    "product": "frying pan",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.997,
+    "p_subcategory": 0.576,
+    "needs_fallback": false
+  },
+  {
+    "product": "kitchen knife",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 1.0,
+    "p_subcategory": 0.997,
+    "needs_fallback": false
+  },
+  {
+    "product": "cutlery",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.996,
+    "p_subcategory": 0.974,
+    "needs_fallback": false
+  },
+  {
+    "product": "plate",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.508,
+    "p_subcategory": 0.593,
+    "needs_fallback": false
+  },
+  {
+    "product": "bowl",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.995,
+    "p_subcategory": 0.915,
+    "needs_fallback": false
+  },
+  {
+    "product": "cup",
+    "category": "household",
+    "subcategory": "decorationAccessories",
+    "p_category": 0.949,
+    "p_subcategory": 0.537,
+    "needs_fallback": false
+  },
+  {
+    "product": "mug",
+    "category": "household",
+    "subcategory": "decorationAccessories",
+    "p_category": 0.986,
+    "p_subcategory": 0.519,
+    "needs_fallback": false
+  },
+  {
+    "product": "glass",
+    "category": "standalone",
+    "subcategory": "collectibles",
+    "p_category": 0.964,
+    "p_subcategory": 0.544,
+    "needs_fallback": false
+  },
+  {
+    "product": "wine glass",
+    "category": "household",
+    "subcategory": "decorationAccessories",
+    "p_category": 0.684,
+    "p_subcategory": 0.692,
+    "needs_fallback": false
+  },
+  {
+    "product": "bottle",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.596,
+    "p_subcategory": 0.717,
+    "needs_fallback": false
+  },
+  {
+    "product": "teapot",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.986,
+    "p_subcategory": 0.704,
+    "needs_fallback": false
+  },
+  {
+    "product": "drill",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.924,
+    "p_subcategory": 0.996,
+    "needs_fallback": false
+  },
+  {
+    "product": "cordless drill",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.976,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "screwdriver",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.994,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "hammer",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.964,
+    "p_subcategory": 0.976,
+    "needs_fallback": false
+  },
+  {
+    "product": "saw",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.55,
+    "p_subcategory": 0.915,
+    "needs_fallback": false
+  },
+  {
+    "product": "circular saw",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.796,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "jigsaw",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.828,
+    "p_subcategory": 0.711,
+    "needs_fallback": false
+  },
+  {
+    "product": "angle grinder",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.844,
+    "p_subcategory": 0.879,
+    "needs_fallback": false
+  },
+  {
+    "product": "toolbox",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.994,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "wrench",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.991,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "ladder",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.852,
+    "p_subcategory": 0.675,
+    "needs_fallback": false
+  },
+  {
+    "product": "lamp",
+    "category": "household",
+    "subcategory": "lighting",
+    "p_category": 0.999,
+    "p_subcategory": 0.998,
+    "needs_fallback": false
+  },
+  {
+    "product": "table lamp",
+    "category": "household",
+    "subcategory": "lighting",
+    "p_category": 0.999,
+    "p_subcategory": 0.844,
+    "needs_fallback": false
+  },
+  {
+    "product": "desk lamp",
+    "category": "household",
+    "subcategory": "lighting",
+    "p_category": 0.997,
+    "p_subcategory": 0.868,
+    "needs_fallback": false
+  },
+  {
+    "product": "floor lamp",
+    "category": "household",
+    "subcategory": "lighting",
+    "p_category": 0.999,
+    "p_subcategory": 0.492,
+    "needs_fallback": false
+  },
+  {
+    "product": "ceiling lamp",
+    "category": "household",
+    "subcategory": "lighting",
+    "p_category": 0.999,
+    "p_subcategory": 0.96,
+    "needs_fallback": false
+  },
+  {
+    "product": "chandelier",
+    "category": "household",
+    "subcategory": "lighting",
+    "p_category": 0.977,
+    "p_subcategory": 0.662,
+    "needs_fallback": false
+  },
+  {
+    "product": "light bulb",
+    "category": "household",
+    "subcategory": "lighting",
+    "p_category": 0.994,
+    "p_subcategory": 0.997,
+    "needs_fallback": false
+  },
+  {
+    "product": "lantern",
+    "category": "household",
+    "subcategory": "lighting",
+    "p_category": 0.971,
+    "p_subcategory": 0.897,
+    "needs_fallback": false
+  },
+  {
+    "product": "chair",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 1.0,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "office chair",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.86,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "armchair",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.998,
+    "p_subcategory": 0.991,
+    "needs_fallback": false
+  },
+  {
+    "product": "stool",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.995,
+    "p_subcategory": 0.942,
+    "needs_fallback": false
+  },
+  {
+    "product": "bar stool",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.998,
+    "p_subcategory": 0.997,
+    "needs_fallback": false
+  },
+  {
+    "product": "sofa",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 1.0,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "couch",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.999,
+    "p_subcategory": 0.998,
+    "needs_fallback": false
+  },
+  {
+    "product": "table",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.997,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "dining table",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.999,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "coffee table",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.999,
+    "p_subcategory": 0.993,
+    "needs_fallback": false
+  },
+  {
+    "product": "desk",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.974,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "bed",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.998,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "bunk bed",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.994,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "mattress",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.999,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "wardrobe",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.994,
+    "p_subcategory": 0.991,
+    "needs_fallback": false
+  },
+  {
+    "product": "dresser",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 1.0,
+    "p_subcategory": 0.998,
+    "needs_fallback": false
+  },
+  {
+    "product": "chest of drawers",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.999,
+    "p_subcategory": 0.994,
+    "needs_fallback": false
+  },
+  {
+    "product": "bookshelf",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.879,
+    "p_subcategory": 0.977,
+    "needs_fallback": false
+  },
+  {
+    "product": "shelf",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.901,
+    "p_subcategory": 0.878,
+    "needs_fallback": false
+  },
+  {
+    "product": "cabinet",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.995,
+    "p_subcategory": 0.998,
+    "needs_fallback": false
+  },
+  {
+    "product": "sideboard",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.997,
+    "p_subcategory": 0.993,
+    "needs_fallback": false
+  },
+  {
+    "product": "tv stand",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.981,
+    "p_subcategory": 0.98,
+    "needs_fallback": false
+  },
+  {
+    "product": "nightstand",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.999,
+    "p_subcategory": 0.985,
+    "needs_fallback": false
+  },
+  {
+    "product": "bench",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.989,
+    "p_subcategory": 0.998,
+    "needs_fallback": false
+  },
+  {
+    "product": "mirror",
+    "category": "photoVideo",
+    "subcategory": "photoCameras",
+    "p_category": 0.661,
+    "p_subcategory": 0.696,
+    "needs_fallback": false
+  },
+  {
+    "product": "coat rack",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.869,
+    "p_subcategory": 0.948,
+    "needs_fallback": false
+  },
+  {
+    "product": "vase",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.755,
+    "p_subcategory": 0.642,
+    "needs_fallback": false
+  },
+  {
+    "product": "picture frame",
+    "category": "standalone",
+    "subcategory": "collectibles",
+    "p_category": 0.686,
+    "p_subcategory": 0.609,
+    "needs_fallback": false
+  },
+  {
+    "product": "painting",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.993,
+    "p_subcategory": 0.89,
+    "needs_fallback": false
+  },
+  {
+    "product": "poster",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.842,
+    "p_subcategory": 0.791,
+    "needs_fallback": false
+  },
+  {
+    "product": "wall clock",
+    "category": "clothesAccessories",
+    "subcategory": "watchesJewelry",
+    "p_category": 0.684,
+    "p_subcategory": 0.853,
+    "needs_fallback": false
+  },
+  {
+    "product": "clock",
+    "category": "clothesAccessories",
+    "subcategory": "watchesJewelry",
+    "p_category": 0.796,
+    "p_subcategory": 0.92,
+    "needs_fallback": false
+  },
+  {
+    "product": "candle holder",
+    "category": "household",
+    "subcategory": "decorationAccessories",
+    "p_category": 0.954,
+    "p_subcategory": 0.64,
+    "needs_fallback": false
+  },
+  {
+    "product": "candle",
+    "category": "household",
+    "subcategory": "decorationAccessories",
+    "p_category": 0.988,
+    "p_subcategory": 0.6,
+    "needs_fallback": false
+  },
+  {
+    "product": "plant pot",
+    "category": "gardenCraft",
+    "subcategory": "gardenEquipment",
+    "p_category": 0.856,
+    "p_subcategory": 0.877,
+    "needs_fallback": false
+  },
+  {
+    "product": "houseplant",
+    "category": "gardenCraft",
+    "subcategory": "gardenEquipment",
+    "p_category": 0.558,
+    "p_subcategory": 0.613,
+    "needs_fallback": false
+  },
+  {
+    "product": "rug",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.986,
+    "p_subcategory": 0.854,
+    "needs_fallback": false
+  },
+  {
+    "product": "carpet",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.985,
+    "p_subcategory": 0.745,
+    "needs_fallback": false
+  },
+  {
+    "product": "cushion",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.978,
+    "p_subcategory": 0.866,
+    "needs_fallback": false
+  },
+  {
+    "product": "pillow",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.995,
+    "p_subcategory": 0.602,
+    "needs_fallback": false
+  },
+  {
+    "product": "blanket",
+    "category": "household",
+    "subcategory": "decorationAccessories",
+    "p_category": 0.994,
+    "p_subcategory": 0.676,
+    "needs_fallback": false
+  },
+  {
+    "product": "curtain",
+    "category": "household",
+    "subcategory": "decorationAccessories",
+    "p_category": 0.912,
+    "p_subcategory": 0.886,
+    "needs_fallback": false
+  },
+  {
+    "product": "sculpture",
+    "category": "standalone",
+    "subcategory": "collectibles",
+    "p_category": 0.997,
+    "p_subcategory": 0.838,
+    "needs_fallback": false
+  },
+  {
+    "product": "figurine",
+    "category": "standalone",
+    "subcategory": "collectibles",
+    "p_category": 0.52,
+    "p_subcategory": 0.982,
+    "needs_fallback": false
+  },
+  {
+    "product": "basket",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.957,
+    "p_subcategory": 0.92,
+    "needs_fallback": false
+  },
+  {
+    "product": "garden furniture",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.875,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "garden chair",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.98,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "parasol",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.993,
+    "p_subcategory": 0.579,
+    "needs_fallback": false
+  },
+  {
+    "product": "barbecue grill",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.939,
+    "p_subcategory": 0.732,
+    "needs_fallback": false
+  },
+  {
+    "product": "lawn mower",
+    "category": "vehicles",
+    "subcategory": "utilityVehicles",
+    "p_category": 0.57,
+    "p_subcategory": 0.981,
+    "needs_fallback": false
+  },
+  {
+    "product": "hedge trimmer",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.474,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "leaf blower",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.98,
+    "p_subcategory": 0.776,
+    "needs_fallback": false
+  },
+  {
+    "product": "wheelbarrow",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.509,
+    "p_subcategory": 0.507,
+    "needs_fallback": false
+  },
+  {
+    "product": "garden hose",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.542,
+    "p_subcategory": 0.885,
+    "needs_fallback": false
+  },
+  {
+    "product": "flower pot",
+    "category": "gardenCraft",
+    "subcategory": "gardenEquipment",
+    "p_category": 0.712,
+    "p_subcategory": 0.772,
+    "needs_fallback": false
+  },
+  {
+    "product": "watering can",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.714,
+    "p_subcategory": 0.791,
+    "needs_fallback": false
+  },
+  {
+    "product": "tiles",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.638,
+    "p_subcategory": 0.742,
+    "needs_fallback": false
+  },
+  {
+    "product": "wooden planks",
+    "category": "gardenCraft",
+    "subcategory": "buildingMaterials",
+    "p_category": 0.914,
+    "p_subcategory": 0.84,
+    "needs_fallback": false
+  },
+  {
+    "product": "jacket",
+    "category": "clothesAccessories",
+    "subcategory": "mensClothes",
+    "p_category": 0.963,
+    "p_subcategory": 0.728,
+    "needs_fallback": false
+  },
+  {
+    "product": "coat",
+    "category": "clothesAccessories",
+    "subcategory": "mensClothes",
+    "p_category": 0.968,
+    "p_subcategory": 0.514,
+    "needs_fallback": false
+  },
+  {
+    "product": "winter jacket",
+    "category": "clothesAccessories",
+    "subcategory": "womensClothes",
+    "p_category": 0.978,
+    "p_subcategory": 0.586,
+    "needs_fallback": false
+  },
+  {
+    "product": "leather jacket",
+    "category": "clothesAccessories",
+    "subcategory": "mensClothes",
+    "p_category": 0.976,
+    "p_subcategory": 0.741,
+    "needs_fallback": false
+  },
+  {
+    "product": "sweater",
+    "category": "clothesAccessories",
+    "subcategory": "womensClothes",
+    "p_category": 0.917,
+    "p_subcategory": 0.911,
+    "needs_fallback": false
+  },
+  {
+    "product": "hoodie",
+    "category": "clothesAccessories",
+    "subcategory": "womensClothes",
+    "p_category": 0.984,
+    "p_subcategory": 0.71,
+    "needs_fallback": false
+  },
+  {
+    "product": "shirt",
+    "category": "clothesAccessories",
+    "subcategory": "mensClothes",
+    "p_category": 0.978,
+    "p_subcategory": 0.816,
+    "needs_fallback": false
+  },
+  {
+    "product": "t-shirt",
+    "category": "clothesAccessories",
+    "subcategory": "mensClothes",
+    "p_category": 0.973,
+    "p_subcategory": 0.501,
+    "needs_fallback": false
+  },
+  {
+    "product": "blouse",
+    "category": "clothesAccessories",
+    "subcategory": "womensClothes",
+    "p_category": 0.993,
+    "p_subcategory": 0.97,
+    "needs_fallback": false
+  },
+  {
+    "product": "dress",
+    "category": "clothesAccessories",
+    "subcategory": "womensClothes",
+    "p_category": 0.979,
+    "p_subcategory": 0.98,
+    "needs_fallback": false
+  },
+  {
+    "product": "skirt",
+    "category": "clothesAccessories",
+    "subcategory": "womensClothes",
+    "p_category": 0.948,
+    "p_subcategory": 0.986,
+    "needs_fallback": false
+  },
+  {
+    "product": "trousers",
+    "category": "clothesAccessories",
+    "subcategory": "mensClothes",
+    "p_category": 0.989,
+    "p_subcategory": 0.663,
+    "needs_fallback": false
+  },
+  {
+    "product": "jeans",
+    "category": "clothesAccessories",
+    "subcategory": "womensClothes",
+    "p_category": 0.971,
+    "p_subcategory": 0.543,
+    "needs_fallback": false
+  },
+  {
+    "product": "shorts",
+    "category": "clothesAccessories",
+    "subcategory": "womensClothes",
+    "p_category": 0.974,
+    "p_subcategory": 0.865,
+    "needs_fallback": false
+  },
+  {
+    "product": "suit",
+    "category": "clothesAccessories",
+    "subcategory": "mensClothes",
+    "p_category": 0.868,
+    "p_subcategory": 0.861,
+    "needs_fallback": false
+  },
+  {
+    "product": "scarf",
+    "category": "clothesAccessories",
+    "subcategory": "accessories",
+    "p_category": 0.887,
+    "p_subcategory": 0.978,
+    "needs_fallback": false
+  },
+  {
+    "product": "hat",
+    "category": "clothesAccessories",
+    "subcategory": "accessories",
+    "p_category": 0.699,
+    "p_subcategory": 0.55,
+    "needs_fallback": false
+  },
+  {
+    "product": "cap",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.89,
+    "p_subcategory": 0.821,
+    "needs_fallback": false
+  },
+  {
+    "product": "gloves",
+    "category": "clothesAccessories",
+    "subcategory": "accessories",
+    "p_category": 0.862,
+    "p_subcategory": 0.831,
+    "needs_fallback": false
+  },
+  {
+    "product": "belt",
+    "category": "vehicles",
+    "subcategory": "carAccessories",
+    "p_category": 0.722,
+    "p_subcategory": 0.977,
+    "needs_fallback": false
+  },
+  {
+    "product": "sunglasses",
+    "category": "photoVideo",
+    "subcategory": "photoVideoAccessories",
+    "p_category": 0.746,
+    "p_subcategory": 0.973,
+    "needs_fallback": false
+  },
+  {
+    "product": "tie",
+    "category": "clothesAccessories",
+    "subcategory": "accessories",
+    "p_category": 0.939,
+    "p_subcategory": 0.654,
+    "needs_fallback": false
+  },
+  {
+    "product": "shoes",
+    "category": "clothesAccessories",
+    "subcategory": "womensShoes",
+    "p_category": 0.999,
+    "p_subcategory": 0.73,
+    "needs_fallback": false
+  },
+  {
+    "product": "sneakers",
+    "category": "clothesAccessories",
+    "subcategory": "womensShoes",
+    "p_category": 0.994,
+    "p_subcategory": 0.517,
+    "needs_fallback": false
+  },
+  {
+    "product": "boots",
+    "category": "clothesAccessories",
+    "subcategory": "womensShoes",
+    "p_category": 0.991,
+    "p_subcategory": 0.756,
+    "needs_fallback": false
+  },
+  {
+    "product": "high heels",
+    "category": "clothesAccessories",
+    "subcategory": "womensShoes",
+    "p_category": 0.976,
+    "p_subcategory": 0.812,
+    "needs_fallback": false
+  },
+  {
+    "product": "sandals",
+    "category": "clothesAccessories",
+    "subcategory": "accessories",
+    "p_category": 0.99,
+    "p_subcategory": 0.467,
+    "needs_fallback": false
+  },
+  {
+    "product": "handbag",
+    "category": "clothesAccessories",
+    "subcategory": "accessories",
+    "p_category": 0.993,
+    "p_subcategory": 0.643,
+    "needs_fallback": false
+  },
+  {
+    "product": "backpack",
+    "category": "clothesAccessories",
+    "subcategory": "accessories",
+    "p_category": 0.96,
+    "p_subcategory": 0.943,
+    "needs_fallback": false
+  },
+  {
+    "product": "suitcase",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.571,
+    "p_subcategory": 0.992,
+    "needs_fallback": false
+  },
+  {
+    "product": "wallet",
+    "category": "clothesAccessories",
+    "subcategory": "bagsWallets",
+    "p_category": 0.697,
+    "p_subcategory": 0.746,
+    "needs_fallback": false
+  },
+  {
+    "product": "purse",
+    "category": "clothesAccessories",
+    "subcategory": "accessories",
+    "p_category": 0.967,
+    "p_subcategory": 0.56,
+    "needs_fallback": false
+  },
+  {
+    "product": "tote bag",
+    "category": "clothesAccessories",
+    "subcategory": "accessories",
+    "p_category": 0.972,
+    "p_subcategory": 0.671,
+    "needs_fallback": false
+  },
+  {
+    "product": "watch",
+    "category": "clothesAccessories",
+    "subcategory": "watchesJewelry",
+    "p_category": 0.997,
+    "p_subcategory": 0.981,
+    "needs_fallback": false
+  },
+  {
+    "product": "wristwatch",
+    "category": "clothesAccessories",
+    "subcategory": "watchesJewelry",
+    "p_category": 0.999,
+    "p_subcategory": 0.946,
+    "needs_fallback": false
+  },
+  {
+    "product": "necklace",
+    "category": "clothesAccessories",
+    "subcategory": "watchesJewelry",
+    "p_category": 0.993,
+    "p_subcategory": 0.549,
+    "needs_fallback": false
+  },
+  {
+    "product": "bracelet",
+    "category": "clothesAccessories",
+    "subcategory": "accessories",
+    "p_category": 0.992,
+    "p_subcategory": 0.652,
+    "needs_fallback": false
+  },
+  {
+    "product": "ring",
+    "category": "clothesAccessories",
+    "subcategory": "watchesJewelry",
+    "p_category": 0.928,
+    "p_subcategory": 0.686,
+    "needs_fallback": false
+  },
+  {
+    "product": "earrings",
+    "category": "clothesAccessories",
+    "subcategory": "accessories",
+    "p_category": 0.996,
+    "p_subcategory": 0.85,
+    "needs_fallback": false
+  },
+  {
+    "product": "jewelry",
+    "category": "clothesAccessories",
+    "subcategory": "watchesJewelry",
+    "p_category": 0.999,
+    "p_subcategory": 0.55,
+    "needs_fallback": false
+  },
+  {
+    "product": "stroller",
+    "category": "babyChild",
+    "subcategory": "strollersSeats",
+    "p_category": 0.476,
+    "p_subcategory": 0.632,
+    "needs_fallback": false
+  },
+  {
+    "product": "pram",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.851,
+    "p_subcategory": 0.914,
+    "needs_fallback": false
+  },
+  {
+    "product": "baby car seat",
+    "category": "babyChild",
+    "subcategory": "babyCare",
+    "p_category": 0.977,
+    "p_subcategory": 0.996,
+    "needs_fallback": false
+  },
+  {
+    "product": "high chair",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.958,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "crib",
+    "category": "babyChild",
+    "subcategory": "babyCare",
+    "p_category": 0.948,
+    "p_subcategory": 0.559,
+    "needs_fallback": false
+  },
+  {
+    "product": "baby bed",
+    "category": "babyChild",
+    "subcategory": "babyCare",
+    "p_category": 0.999,
+    "p_subcategory": 0.965,
+    "needs_fallback": false
+  },
+  {
+    "product": "baby monitor",
+    "category": "babyChild",
+    "subcategory": "babyCare",
+    "p_category": 1.0,
+    "p_subcategory": 0.995,
+    "needs_fallback": false
+  },
+  {
+    "product": "baby bottle",
+    "category": "babyChild",
+    "subcategory": "babyCare",
+    "p_category": 1.0,
+    "p_subcategory": 0.978,
+    "needs_fallback": false
+  },
+  {
+    "product": "baby carrier",
+    "category": "babyChild",
+    "subcategory": "babyCare",
+    "p_category": 1.0,
+    "p_subcategory": 0.997,
+    "needs_fallback": false
+  },
+  {
+    "product": "changing table",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.98,
+    "p_subcategory": 0.958,
+    "needs_fallback": false
+  },
+  {
+    "product": "baby clothes",
+    "category": "babyChild",
+    "subcategory": "babyClothes",
+    "p_category": 0.998,
+    "p_subcategory": 0.998,
+    "needs_fallback": false
+  },
+  {
+    "product": "toy",
+    "category": "toysHandicrafts",
+    "subcategory": "toys",
+    "p_category": 1.0,
+    "p_subcategory": 0.806,
+    "needs_fallback": false
+  },
+  {
+    "product": "teddy bear",
+    "category": "toysHandicrafts",
+    "subcategory": "handicrafts",
+    "p_category": 0.747,
+    "p_subcategory": 0.557,
+    "needs_fallback": false
+  },
+  {
+    "product": "stuffed animal",
+    "category": "toysHandicrafts",
+    "subcategory": "handicrafts",
+    "p_category": 0.988,
+    "p_subcategory": 0.524,
+    "needs_fallback": false
+  },
+  {
+    "product": "doll",
+    "category": "toysHandicrafts",
+    "subcategory": "toys",
+    "p_category": 0.841,
+    "p_subcategory": 0.405,
+    "needs_fallback": false
+  },
+  {
+    "product": "action figure",
+    "category": "toysHandicrafts",
+    "subcategory": "handicrafts",
+    "p_category": 0.659,
+    "p_subcategory": 0.445,
+    "needs_fallback": false
+  },
+  {
+    "product": "lego",
+    "category": "toysHandicrafts",
+    "subcategory": "modeling",
+    "p_category": 0.936,
+    "p_subcategory": 0.45,
+    "needs_fallback": false
+  },
+  {
+    "product": "building blocks",
+    "category": "gardenCraft",
+    "subcategory": "buildingMaterials",
+    "p_category": 0.715,
+    "p_subcategory": 0.953,
+    "needs_fallback": false
+  },
+  {
+    "product": "toy car",
+    "category": "vehicles",
+    "subcategory": "cars",
+    "p_category": 0.71,
+    "p_subcategory": 0.996,
+    "needs_fallback": false
+  },
+  {
+    "product": "model train",
+    "category": "standalone",
+    "subcategory": "collectibles",
+    "p_category": 0.622,
+    "p_subcategory": 0.974,
+    "needs_fallback": false
+  },
+  {
+    "product": "remote control car",
+    "category": "vehicles",
+    "subcategory": "cars",
+    "p_category": 1.0,
+    "p_subcategory": 0.988,
+    "needs_fallback": false
+  },
+  {
+    "product": "puzzle",
+    "category": "toysHandicrafts",
+    "subcategory": "handicrafts",
+    "p_category": 0.951,
+    "p_subcategory": 0.598,
+    "needs_fallback": false
+  },
+  {
+    "product": "board game",
+    "category": "toysHandicrafts",
+    "subcategory": "toys",
+    "p_category": 0.986,
+    "p_subcategory": 0.49,
+    "needs_fallback": false
+  },
+  {
+    "product": "playing cards",
+    "category": "standalone",
+    "subcategory": "collectibles",
+    "p_category": 0.891,
+    "p_subcategory": 0.606,
+    "needs_fallback": false
+  },
+  {
+    "product": "rocking horse",
+    "category": "vehicles",
+    "subcategory": "carAccessories",
+    "p_category": 0.687,
+    "p_subcategory": 0.904,
+    "needs_fallback": false
+  },
+  {
+    "product": "dollhouse",
+    "category": "toysHandicrafts",
+    "subcategory": "modeling",
+    "p_category": 0.978,
+    "p_subcategory": 0.602,
+    "needs_fallback": false
+  },
+  {
+    "product": "toy kitchen",
+    "category": "toysHandicrafts",
+    "subcategory": "handicrafts",
+    "p_category": 0.999,
+    "p_subcategory": 0.523,
+    "needs_fallback": false
+  },
+  {
+    "product": "balloon",
+    "category": "vehicles",
+    "subcategory": "carAccessories",
+    "p_category": 0.62,
+    "p_subcategory": 0.977,
+    "needs_fallback": false
+  },
+  {
+    "product": "kite",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.996,
+    "p_subcategory": 0.734,
+    "needs_fallback": false
+  },
+  {
+    "product": "craft supplies",
+    "category": "toysHandicrafts",
+    "subcategory": "handicrafts",
+    "p_category": 0.625,
+    "p_subcategory": 0.936,
+    "needs_fallback": false
+  },
+  {
+    "product": "yarn",
+    "category": "household",
+    "subcategory": "decorationAccessories",
+    "p_category": 0.589,
+    "p_subcategory": 0.86,
+    "needs_fallback": false
+  },
+  {
+    "product": "paint set",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.68,
+    "p_subcategory": 0.672,
+    "needs_fallback": false
+  },
+  {
+    "product": "model kit",
+    "category": "toysHandicrafts",
+    "subcategory": "modeling",
+    "p_category": 0.953,
+    "p_subcategory": 0.709,
+    "needs_fallback": false
+  },
+  {
+    "product": "book",
+    "category": "books",
+    "subcategory": "otherBooks",
+    "p_category": 1.0,
+    "p_subcategory": 0.637,
+    "needs_fallback": false
+  },
+  {
+    "product": "comic book",
+    "category": "books",
+    "subcategory": "comics",
+    "p_category": 0.822,
+    "p_subcategory": 0.996,
+    "needs_fallback": false
+  },
+  {
+    "product": "manga",
+    "category": "books",
+    "subcategory": "comics",
+    "p_category": 0.919,
+    "p_subcategory": 0.805,
+    "needs_fallback": false
+  },
+  {
+    "product": "magazine",
+    "category": "books",
+    "subcategory": "otherBooks",
+    "p_category": 0.579,
+    "p_subcategory": 0.568,
+    "needs_fallback": false
+  },
+  {
+    "product": "cookbook",
+    "category": "books",
+    "subcategory": "nonFictionBooks",
+    "p_category": 0.939,
+    "p_subcategory": 0.944,
+    "needs_fallback": false
+  },
+  {
+    "product": "textbook",
+    "category": "books",
+    "subcategory": "nonFictionBooks",
+    "p_category": 0.998,
+    "p_subcategory": 0.738,
+    "needs_fallback": false
+  },
+  {
+    "product": "bicycle",
+    "category": "sportsOutdoors",
+    "subcategory": "bicycles",
+    "p_category": 0.796,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "mountain bike",
+    "category": "sportsOutdoors",
+    "subcategory": "bicycles",
+    "p_category": 0.975,
+    "p_subcategory": 0.998,
+    "needs_fallback": false
+  },
+  {
+    "product": "road bike",
+    "category": "sportsOutdoors",
+    "subcategory": "bicycles",
+    "p_category": 0.766,
+    "p_subcategory": 0.998,
+    "needs_fallback": false
+  },
+  {
+    "product": "electric bike",
+    "category": "sportsOutdoors",
+    "subcategory": "bicycles",
+    "p_category": 0.907,
+    "p_subcategory": 0.973,
+    "needs_fallback": false
+  },
+  {
+    "product": "children's bike",
+    "category": "sportsOutdoors",
+    "subcategory": "bicycles",
+    "p_category": 0.721,
+    "p_subcategory": 0.996,
+    "needs_fallback": false
+  },
+  {
+    "product": "scooter",
+    "category": "vehicles",
+    "subcategory": "motorcycles",
+    "p_category": 0.997,
+    "p_subcategory": 0.672,
+    "needs_fallback": false
+  },
+  {
+    "product": "kick scooter",
+    "category": "sportsOutdoors",
+    "subcategory": "fitness",
+    "p_category": 0.507,
+    "p_subcategory": 0.743,
+    "needs_fallback": false
+  },
+  {
+    "product": "skateboard",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.993,
+    "p_subcategory": 0.9,
+    "needs_fallback": false
+  },
+  {
+    "product": "roller skates",
+    "category": "sportsOutdoors",
+    "subcategory": "fitness",
+    "p_category": 0.853,
+    "p_subcategory": 0.57,
+    "needs_fallback": false
+  },
+  {
+    "product": "ice skates",
+    "category": "sportsOutdoors",
+    "subcategory": "winterSports",
+    "p_category": 0.992,
+    "p_subcategory": 0.577,
+    "needs_fallback": false
+  },
+  {
+    "product": "helmet",
+    "category": "sportsOutdoors",
+    "subcategory": "fitness",
+    "p_category": 0.791,
+    "p_subcategory": 0.619,
+    "needs_fallback": false
+  },
+  {
+    "product": "bike helmet",
+    "category": "sportsOutdoors",
+    "subcategory": "fitness",
+    "p_category": 0.724,
+    "p_subcategory": 0.446,
+    "needs_fallback": false
+  },
+  {
+    "product": "skis",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 1.0,
+    "p_subcategory": 0.485,
+    "needs_fallback": false
+  },
+  {
+    "product": "ski boots",
+    "category": "sportsOutdoors",
+    "subcategory": "winterSports",
+    "p_category": 1.0,
+    "p_subcategory": 0.949,
+    "needs_fallback": false
+  },
+  {
+    "product": "snowboard",
+    "category": "sportsOutdoors",
+    "subcategory": "winterSports",
+    "p_category": 1.0,
+    "p_subcategory": 0.963,
+    "needs_fallback": false
+  },
+  {
+    "product": "ski goggles",
+    "category": "sportsOutdoors",
+    "subcategory": "winterSports",
+    "p_category": 1.0,
+    "p_subcategory": 0.971,
+    "needs_fallback": false
+  },
+  {
+    "product": "tent",
+    "category": "sportsOutdoors",
+    "subcategory": "camping",
+    "p_category": 1.0,
+    "p_subcategory": 0.869,
+    "needs_fallback": false
+  },
+  {
+    "product": "sleeping bag",
+    "category": "sportsOutdoors",
+    "subcategory": "winterSports",
+    "p_category": 1.0,
+    "p_subcategory": 0.636,
+    "needs_fallback": false
+  },
+  {
+    "product": "camping chair",
+    "category": "sportsOutdoors",
+    "subcategory": "camping",
+    "p_category": 1.0,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "hiking backpack",
+    "category": "sportsOutdoors",
+    "subcategory": "fitness",
+    "p_category": 1.0,
+    "p_subcategory": 0.657,
+    "needs_fallback": false
+  },
+  {
+    "product": "fishing rod",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 1.0,
+    "p_subcategory": 0.929,
+    "needs_fallback": false
+  },
+  {
+    "product": "golf club",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 1.0,
+    "p_subcategory": 0.801,
+    "needs_fallback": false
+  },
+  {
+    "product": "golf bag",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.997,
+    "p_subcategory": 0.673,
+    "needs_fallback": false
+  },
+  {
+    "product": "tennis racket",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 1.0,
+    "p_subcategory": 0.585,
+    "needs_fallback": false
+  },
+  {
+    "product": "badminton racket",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.998,
+    "p_subcategory": 0.655,
+    "needs_fallback": false
+  },
+  {
+    "product": "football",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.982,
+    "p_subcategory": 0.937,
+    "needs_fallback": false
+  },
+  {
+    "product": "basketball",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.998,
+    "p_subcategory": 0.616,
+    "needs_fallback": false
+  },
+  {
+    "product": "volleyball",
+    "category": "sportsOutdoors",
+    "subcategory": "fitness",
+    "p_category": 1.0,
+    "p_subcategory": 0.557,
+    "needs_fallback": false
+  },
+  {
+    "product": "dumbbell",
+    "category": "sportsOutdoors",
+    "subcategory": "fitness",
+    "p_category": 0.853,
+    "p_subcategory": 0.978,
+    "needs_fallback": false
+  },
+  {
+    "product": "kettlebell",
+    "category": "sportsOutdoors",
+    "subcategory": "fitness",
+    "p_category": 0.779,
+    "p_subcategory": 0.983,
+    "needs_fallback": false
+  },
+  {
+    "product": "exercise bike",
+    "category": "sportsOutdoors",
+    "subcategory": "fitness",
+    "p_category": 1.0,
+    "p_subcategory": 0.961,
+    "needs_fallback": false
+  },
+  {
+    "product": "treadmill",
+    "category": "sportsOutdoors",
+    "subcategory": "fitness",
+    "p_category": 1.0,
+    "p_subcategory": 0.974,
+    "needs_fallback": false
+  },
+  {
+    "product": "yoga mat",
+    "category": "sportsOutdoors",
+    "subcategory": "fitness",
+    "p_category": 1.0,
+    "p_subcategory": 0.959,
+    "needs_fallback": false
+  },
+  {
+    "product": "weight bench",
+    "category": "sportsOutdoors",
+    "subcategory": "fitness",
+    "p_category": 0.917,
+    "p_subcategory": 0.981,
+    "needs_fallback": false
+  },
+  {
+    "product": "surfboard",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.997,
+    "p_subcategory": 0.507,
+    "needs_fallback": false
+  },
+  {
+    "product": "paddle board",
+    "category": "sportsOutdoors",
+    "subcategory": "fitness",
+    "p_category": 0.993,
+    "p_subcategory": 0.923,
+    "needs_fallback": false
+  },
+  {
+    "product": "kayak",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.573,
+    "p_subcategory": 0.688,
+    "needs_fallback": false
+  },
+  {
+    "product": "car",
+    "category": "vehicles",
+    "subcategory": "cars",
+    "p_category": 1.0,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "motorcycle",
+    "category": "vehicles",
+    "subcategory": "motorcycles",
+    "p_category": 0.996,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "car tire",
+    "category": "vehicles",
+    "subcategory": "cars",
+    "p_category": 1.0,
+    "p_subcategory": 0.833,
+    "needs_fallback": false
+  },
+  {
+    "product": "car seat cover",
+    "category": "vehicles",
+    "subcategory": "cars",
+    "p_category": 0.998,
+    "p_subcategory": 0.522,
+    "needs_fallback": false
+  },
+  {
+    "product": "roof box",
+    "category": "vehicles",
+    "subcategory": "carAccessories",
+    "p_category": 0.655,
+    "p_subcategory": 0.771,
+    "needs_fallback": false
+  },
+  {
+    "product": "motorcycle helmet",
+    "category": "vehicles",
+    "subcategory": "motorcycleAccessories",
+    "p_category": 0.933,
+    "p_subcategory": 0.947,
+    "needs_fallback": false
+  },
+  {
+    "product": "boat",
+    "category": "vehicles",
+    "subcategory": "boats",
+    "p_category": 0.996,
+    "p_subcategory": 1.0,
+    "needs_fallback": false
+  },
+  {
+    "product": "office desk",
+    "category": "officeBusiness",
+    "subcategory": "officeMaterialFurniture",
+    "p_category": 0.558,
+    "p_subcategory": 0.974,
+    "needs_fallback": false
+  },
+  {
+    "product": "filing cabinet",
+    "category": "household",
+    "subcategory": "furniture",
+    "p_category": 0.985,
+    "p_subcategory": 0.99,
+    "needs_fallback": false
+  },
+  {
+    "product": "whiteboard",
+    "category": "officeBusiness",
+    "subcategory": "officeMaterialFurniture",
+    "p_category": 0.513,
+    "p_subcategory": 0.885,
+    "needs_fallback": false
+  },
+  {
+    "product": "calculator",
+    "category": "computersAccessories",
+    "subcategory": "computers",
+    "p_category": 0.825,
+    "p_subcategory": 0.856,
+    "needs_fallback": false
+  },
+  {
+    "product": "typewriter",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.364,
+    "p_subcategory": 0.728,
+    "needs_fallback": true
+  },
+  {
+    "product": "paper shredder",
+    "category": "household",
+    "subcategory": "equipmentTools",
+    "p_category": 0.681,
+    "p_subcategory": 0.999,
+    "needs_fallback": false
+  },
+  {
+    "product": "painting canvas",
+    "category": "standalone",
+    "subcategory": "other",
+    "p_category": 0.996,
+    "p_subcategory": 0.49,
+    "needs_fallback": false
+  },
+  {
+    "product": "antique",
+    "category": "standalone",
+    "subcategory": "antiquesArts",
+    "p_category": 0.999,
+    "p_subcategory": 0.751,
+    "needs_fallback": false
+  },
+  {
+    "product": "coin",
+    "category": "standalone",
+    "subcategory": "collectibles",
+    "p_category": 0.992,
+    "p_subcategory": 0.95,
+    "needs_fallback": false
+  },
+  {
+    "product": "stamp",
+    "category": "standalone",
+    "subcategory": "collectibles",
+    "p_category": 0.971,
+    "p_subcategory": 0.651,
+    "needs_fallback": false
+  },
+  {
+    "product": "trading card",
+    "category": "standalone",
+    "subcategory": "collectibles",
+    "p_category": 0.998,
+    "p_subcategory": 0.977,
+    "needs_fallback": false
+  },
+  {
+    "product": "ticket",
+    "category": "standalone",
+    "subcategory": "ticketsVouchers",
+    "p_category": 1.0,
+    "p_subcategory": 0.96,
+    "needs_fallback": false
+  },
+  {
+    "product": "umbrella",
+    "category": "sportsOutdoors",
+    "subcategory": "otherSports",
+    "p_category": 0.994,
+    "p_subcategory": 0.789,
+    "needs_fallback": false
+  }
+]

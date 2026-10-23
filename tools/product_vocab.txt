@@ -1,0 +1,351 @@
+# Product types the app names objects with (tools/export_tflite.py --vocab). One name per line, '#' starts a
+# comment. YOLOE's text encoder turns each name into a vocabulary row, exactly like its built-in tags, so any
+# object type can be added here; prefer the words people use when they sell it.
+
+# consoles and games
+video game console
+handheld game console
+retro game console
+game controller
+gamepad
+joystick
+video game
+video game cartridge
+virtual reality headset
+arcade machine
+# computers
+laptop
+desktop computer
+computer monitor
+computer keyboard
+computer mouse
+printer
+scanner
+external hard drive
+usb flash drive
+router
+graphics card
+tablet computer
+e-book reader
+webcam
+docking station
+# phones
+smartphone
+mobile phone
+landline phone
+phone case
+phone charger
+power bank
+smartwatch
+gps navigation device
+# tv and audio
+television
+headphones
+earbuds
+bluetooth speaker
+loudspeaker
+soundbar
+stereo amplifier
+turntable
+record player
+radio
+cd player
+dvd player
+blu-ray player
+projector
+remote control
+microphone
+# photo and video
+camera
+digital camera
+film camera
+instant camera
+camera lens
+video camera
+action camera
+drone
+tripod
+camera bag
+flash
+# instruments and music
+guitar
+electric guitar
+acoustic guitar
+bass guitar
+violin
+cello
+piano
+digital piano
+electronic keyboard
+synthesizer
+drum kit
+drum
+trumpet
+saxophone
+flute
+clarinet
+harmonica
+accordion
+ukulele
+amplifier
+vinyl record
+compact disc
+# household appliances and tools
+coffee machine
+espresso machine
+kettle
+toaster
+microwave oven
+blender
+food processor
+stand mixer
+vacuum cleaner
+robot vacuum
+iron
+hair dryer
+sewing machine
+fan
+heater
+air purifier
+humidifier
+refrigerator
+washing machine
+dishwasher
+oven
+cooking pot
+frying pan
+kitchen knife
+cutlery
+plate
+bowl
+cup
+mug
+glass
+wine glass
+bottle
+teapot
+drill
+cordless drill
+screwdriver
+hammer
+saw
+circular saw
+jigsaw
+angle grinder
+toolbox
+wrench
+ladder
+# lighting
+lamp
+table lamp
+desk lamp
+floor lamp
+ceiling lamp
+chandelier
+light bulb
+lantern
+# furniture
+chair
+office chair
+armchair
+stool
+bar stool
+sofa
+couch
+table
+dining table
+coffee table
+desk
+bed
+bunk bed
+mattress
+wardrobe
+dresser
+chest of drawers
+bookshelf
+shelf
+cabinet
+sideboard
+tv stand
+nightstand
+bench
+mirror
+coat rack
+# decoration
+vase
+picture frame
+painting
+poster
+wall clock
+clock
+candle holder
+candle
+plant pot
+houseplant
+rug
+carpet
+cushion
+pillow
+blanket
+curtain
+sculpture
+figurine
+basket
+# garden and building
+garden furniture
+garden chair
+parasol
+barbecue grill
+lawn mower
+hedge trimmer
+leaf blower
+wheelbarrow
+garden hose
+flower pot
+watering can
+tiles
+wooden planks
+# clothes and accessories
+jacket
+coat
+winter jacket
+leather jacket
+sweater
+hoodie
+shirt
+t-shirt
+blouse
+dress
+skirt
+trousers
+jeans
+shorts
+suit
+scarf
+hat
+cap
+gloves
+belt
+sunglasses
+tie
+shoes
+sneakers
+boots
+high heels
+sandals
+handbag
+backpack
+suitcase
+wallet
+purse
+tote bag
+watch
+wristwatch
+necklace
+bracelet
+ring
+earrings
+jewelry
+# baby and children
+stroller
+pram
+baby car seat
+high chair
+crib
+baby bed
+baby monitor
+baby bottle
+baby carrier
+changing table
+baby clothes
+# toys and crafts
+toy
+teddy bear
+stuffed animal
+doll
+action figure
+lego
+building blocks
+toy car
+model train
+remote control car
+puzzle
+board game
+playing cards
+rocking horse
+dollhouse
+toy kitchen
+balloon
+kite
+craft supplies
+yarn
+paint set
+model kit
+# books
+book
+comic book
+manga
+magazine
+cookbook
+textbook
+# sports and outdoors
+bicycle
+mountain bike
+road bike
+electric bike
+children's bike
+scooter
+kick scooter
+skateboard
+roller skates
+ice skates
+helmet
+bike helmet
+skis
+ski boots
+snowboard
+ski goggles
+tent
+sleeping bag
+camping chair
+hiking backpack
+fishing rod
+golf club
+golf bag
+tennis racket
+badminton racket
+football
+basketball
+volleyball
+dumbbell
+kettlebell
+exercise bike
+treadmill
+yoga mat
+weight bench
+surfboard
+paddle board
+kayak
+# vehicles
+car
+motorcycle
+car tire
+car seat cover
+roof box
+motorcycle helmet
+boat
+# office
+office desk
+filing cabinet
+whiteboard
+calculator
+typewriter
+paper shredder
+# other
+painting canvas
+antique
+coin
+stamp
+trading card
+ticket
+umbrella

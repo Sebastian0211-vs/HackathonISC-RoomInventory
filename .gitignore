@@ -1,8 +1,9 @@
 .venv/
 out/
 
-
+img/
 tools/.work/
 tools/jev_native_test/build/
 __pycache__/
 
+/img/

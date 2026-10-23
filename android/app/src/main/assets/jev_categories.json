@@ -1,0 +1,100 @@
+{
+  "note": "tutti.ch categories for JEV. Keys are tutti category IDs, descriptions are what the model reads, labels are shown in the app. Shared by the app and tools/jev_prompt.py.",
+  "question_group": "Which category of a second-hand marketplace should this object be listed in? The object name is not necessarily in English.",
+  "question_category": "Which subcategory of \"{group}\" should this object be listed in? The object name is not necessarily in English.",
+  "groups": [
+    {"key": "standalone", "label": "Other", "description": "antiques, art, films, real estate, collectibles, tickets, anything else",
+     "categories": [
+      {"key": "antiquesArts", "label": "Antiques & art", "description": "antiques, paintings and art"},
+      {"key": "films", "label": "Films", "description": "films and series on DVD or Blu-ray"},
+      {"key": "realEstate", "label": "Real estate", "description": "houses, flats and property"},
+      {"key": "collectibles", "label": "Collectibles", "description": "collectibles: coins, stamps, figurines, trading cards"},
+      {"key": "ticketsVouchers", "label": "Tickets & vouchers", "description": "tickets and vouchers"},
+      {"key": "other", "label": "Other", "description": "anything that fits no other category"}]},
+    {"key": "babyChild", "label": "Baby & child", "description": "baby and child products",
+     "categories": [
+      {"key": "babyCare", "label": "Baby care", "description": "baby care: bottles, baby monitors, bath, changing"},
+      {"key": "strollersSeats", "label": "Strollers & seats", "description": "strollers, prams and child car seats"},
+      {"key": "childrensRoom", "label": "Children's room", "description": "children's room furniture: cots, beds, high chairs"},
+      {"key": "babyClothes", "label": "Baby clothes", "description": "baby and children's clothes"}]},
+    {"key": "books", "label": "Books", "description": "books and comics",
+     "categories": [
+      {"key": "comics", "label": "Comics", "description": "comics and manga"},
+      {"key": "novels", "label": "Novels", "description": "novels and fiction"},
+      {"key": "nonFictionBooks", "label": "Non-fiction", "description": "non-fiction, textbooks, cookbooks, guides"},
+      {"key": "otherBooks", "label": "Other books", "description": "other books and magazines"}]},
+    {"key": "officeBusiness", "label": "Office & business", "description": "office and business equipment",
+     "categories": [
+      {"key": "officeMaterialFurniture", "label": "Office supplies & furniture", "description": "office supplies and office furniture: desks, office chairs, filing cabinets"},
+      {"key": "commercialInstallationsFurniture", "label": "Commercial equipment", "description": "shop fittings, restaurant and commercial equipment"}]},
+    {"key": "computersAccessories", "label": "Computers", "description": "computers, PC parts, software, tablets",
+     "categories": [
+      {"key": "computers", "label": "Computers", "description": "desktop computers and laptops"},
+      {"key": "computerComponentsAccessories", "label": "PC parts & accessories", "description": "PC parts, keyboards, mice, monitors, printers, cables, storage"},
+      {"key": "software", "label": "Software", "description": "software and licences"},
+      {"key": "tablets", "label": "Tablets", "description": "tablets and e-readers"}]},
+    {"key": "vehicles", "label": "Vehicles", "description": "cars, motorcycles, boats, vehicle accessories",
+     "categories": [
+      {"key": "cars", "label": "Cars", "description": "cars"},
+      {"key": "carAccessories", "label": "Car accessories", "description": "car parts, tyres, roof boxes, car accessories"},
+      {"key": "boats", "label": "Boats", "description": "boats"},
+      {"key": "motorcycleAccessories", "label": "Motorcycle accessories", "description": "motorcycle parts, helmets and clothing"},
+      {"key": "motorcycles", "label": "Motorcycles", "description": "motorcycles and scooters"},
+      {"key": "utilityVehicles", "label": "Utility vehicles", "description": "vans, trucks and tractors"},
+      {"key": "caravans", "label": "Caravans", "description": "caravans and camper vans"}]},
+    {"key": "photoVideo", "label": "Photo & video", "description": "cameras, camcorders, photo and video accessories",
+     "categories": [
+      {"key": "photoCameras", "label": "Cameras", "description": "photo cameras"},
+      {"key": "videoCameras", "label": "Video cameras", "description": "video cameras, camcorders and action cameras"},
+      {"key": "photoVideoAccessories", "label": "Photo accessories", "description": "lenses, tripods, flashes, camera bags, memory cards"}]},
+    {"key": "gardenCraft", "label": "Garden & DIY", "description": "garden, building materials, DIY",
+     "categories": [
+      {"key": "buildingMaterials", "label": "Building materials", "description": "building materials: wood, tiles, bricks"},
+      {"key": "gardenOutfitting", "label": "Garden furniture", "description": "garden furniture, plants, pots, barbecues"},
+      {"key": "gardenEquipment", "label": "Garden tools", "description": "garden tools and machines: lawn mowers, hedge trimmers"}]},
+    {"key": "household", "label": "Household", "description": "home items: lighting, furniture, appliances, tools, decoration, food",
+     "categories": [
+      {"key": "lighting", "label": "Lighting", "description": "lamps and lights"},
+      {"key": "decorationAccessories", "label": "Decoration", "description": "home decoration: vases, pictures, mirrors, rugs, cushions, tableware"},
+      {"key": "equipmentTools", "label": "Appliances & tools", "description": "household appliances and tools: kitchen appliances, coffee machines, vacuum cleaners, drills"},
+      {"key": "food", "label": "Food", "description": "food and drinks"},
+      {"key": "furniture", "label": "Furniture", "description": "furniture: chairs, tables, sofas, beds, wardrobes, shelves"}]},
+    {"key": "clothesAccessories", "label": "Clothes & accessories", "description": "clothes, shoes, bags, watches, jewelry",
+     "categories": [
+      {"key": "accessories", "label": "Accessories", "description": "clothing accessories: belts, scarves, hats, sunglasses"},
+      {"key": "womensClothes", "label": "Women's clothes", "description": "women's clothes"},
+      {"key": "mensClothes", "label": "Men's clothes", "description": "men's clothes"},
+      {"key": "womensShoes", "label": "Women's shoes", "description": "women's shoes"},
+      {"key": "mensShoes", "label": "Men's shoes", "description": "men's shoes"},
+      {"key": "bagsWallets", "label": "Bags & wallets", "description": "bags, backpacks, suitcases and wallets"},
+      {"key": "watchesJewelry", "label": "Watches & jewelry", "description": "watches and jewelry"}]},
+    {"key": "music", "label": "Music", "description": "CDs and musical instruments",
+     "categories": [
+      {"key": "cds", "label": "CDs & records", "description": "CDs, records and vinyl"},
+      {"key": "musicalInstruments", "label": "Instruments", "description": "musical instruments and music equipment"}]},
+    {"key": "toysHandicrafts", "label": "Toys & games", "description": "toys, crafts, models, game consoles and video games",
+     "categories": [
+      {"key": "handicrafts", "label": "Handicrafts", "description": "craft supplies: sewing, knitting, painting"},
+      {"key": "modeling", "label": "Model building", "description": "model building: model trains, RC cars, kits"},
+      {"key": "consolesGames", "label": "Consoles & video games", "description": "game consoles, video games and controllers"},
+      {"key": "toys", "label": "Toys", "description": "toys and board games, not video games"}]},
+    {"key": "sportsOutdoors", "label": "Sports & outdoors", "description": "sports, fitness, bikes, camping, outdoor gear",
+     "categories": [
+      {"key": "camping", "label": "Camping", "description": "camping and hiking gear"},
+      {"key": "fitness", "label": "Fitness", "description": "fitness equipment"},
+      {"key": "bicycles", "label": "Bicycles", "description": "bicycles and bike accessories"},
+      {"key": "winterSports", "label": "Winter sports", "description": "skis, snowboards and winter sports gear"},
+      {"key": "otherSports", "label": "Other sports", "description": "other sports equipment: balls, rackets, golf, water sports"}]},
+    {"key": "tvAudio", "label": "TV & audio", "description": "TVs, headphones, speakers, hi-fi and audio equipment",
+     "categories": [
+      {"key": "audioHifi", "label": "Audio & hi-fi", "description": "headphones, earbuds, speakers, soundbars, hi-fi"},
+      {"key": "dvdPlayers", "label": "DVD players", "description": "DVD and Blu-ray players"},
+      {"key": "tv", "label": "TV", "description": "televisions"}]},
+    {"key": "phonesNavigation", "label": "Phones & GPS", "description": "phones, GPS navigation, phone accessories",
+     "categories": [
+      {"key": "landlinePhones", "label": "Landline phones", "description": "landline phones"},
+      {"key": "cellPhones", "label": "Mobile phones", "description": "mobile phones and smartphones"},
+      {"key": "navigationSystems", "label": "GPS devices", "description": "GPS navigation devices"},
+      {"key": "phoneNavigationAccessories", "label": "Phone accessories", "description": "phone cases, chargers, holders, GPS accessories"}]}
+  ]
+}

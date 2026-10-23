@@ -90,5 +90,5 @@ median_price = estimate_price("chaise", categories= [None])
 print(f"dumb estimated price : {median_price}")
 
 
-save_thumbnails("chaise", categories= [None])
+save_thumbnails("gamecube", categories= [None])
 

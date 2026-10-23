@@ -1,3 +1,8 @@
 .venv/
 out/
 
+
+tools/.work/
+tools/jev_native_test/build/
+__pycache__/
+

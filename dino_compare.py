@@ -1,28 +1,3 @@
-#!/usr/bin/env -S uv run --script
-# /// script
-# requires-python = ">=3.10,<3.14"
-# dependencies = [
-#     "torch",
-#     "torchvision",
-#     "pillow",
-#     "numpy",
-# ]
-# ///
-"""
-Compare one query image against every image in a folder using DINOv2 embeddings.
-
-Each image becomes a global DINOv2 descriptor (the CLS token), L2-normalized,
-and is scored against the query with cosine similarity. Higher means more similar.
-Scores are not calibrated: pick a threshold from a few known matches on your own data.
-
-Gallery embeddings are cached in a hidden .npz file inside the folder, so reruns
-only embed images that are new or have changed.
-
-Usage (uv installs the dependencies on first run):
-    uv run dino_compare.py query.jpg path/to/folder
-    uv run dino_compare.py query.jpg path/to/folder --model vitb14 --top 20 --csv scores.csv
-"""
-
 import argparse
 import csv
 import sys

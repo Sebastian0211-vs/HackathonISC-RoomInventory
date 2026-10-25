@@ -1,36 +1,3 @@
-#!/usr/bin/env -S uv run --script
-# /// script
-# requires-python = ">=3.11,<3.14"
-# dependencies = [
-#     "torch",
-#     "torchvision",
-#     "pillow",
-#     "numpy",
-#     "requests",
-#     "tutti-scraper>=0.3.3,<0.4",
-# ]
-# ///
-"""
-Search tutti.ch and find the listing that looks most like your photo, live.
-
-Three things run at the same time:
-  1. the scraper streams listings from tutti.ch page by page,
-  2. a pool of threads downloads each listing's thumbnail into the output folder,
-  3. DINOv2 embeds every thumbnail as it lands and compares it to your photo.
-
-The best match so far is printed every time it changes, so you can stop with
-Ctrl+C as soon as you see what you want. All scores and prices go to a CSV, and
-the embeddings go into the same cache dino_compare.py uses, so running
-dino_compare.py on the folder later with another photo needs no recomputation.
-
-Needs dino_compare.py in the same folder.
-
-Usage:
-    uv run live_match.py photo.jpg "gamecube"
-    uv run live_match.py photo.jpg "gamecube" -c consolesGames --stop-at 0.85
-    uv run live_match.py photo.jpg "chaise" -c household --max-results 300 --top 15
-"""
-
 import argparse
 import csv
 import math
